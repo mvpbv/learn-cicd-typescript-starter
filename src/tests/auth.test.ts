@@ -1,6 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { getAPIKey } from 'src/api/auth';
-
+import { describe, expect, it } from "vitest";
+import { getAPIKey } from "src/api/auth";
 
 describe("getAPIKey", () => {
   it("should return null if no authorization header is present", () => {
